@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 index.js"
+    "start": "pm2 start index.js",
+    "kill": "pm2 kill"
   },
   "keywords": [],
   "author": "",
