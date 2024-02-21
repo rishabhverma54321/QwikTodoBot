@@ -10,11 +10,6 @@ bot.start((ctx)=>{
    ctx.reply(`Hi ${name}, this bot is at your service 🙇`)
 })
 
-bot.command('*', (ctx)=>{
-    console.log("hello rishbh")
-    ctx.reply('This command is not valid 😔' )
-})
-
 bot.use((ctx, next)=>{
     // ctx.reply("how are you!")
     ctx.reply('This command is not valid 😔' )
